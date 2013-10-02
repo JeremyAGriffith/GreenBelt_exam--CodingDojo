@@ -1,0 +1,55 @@
+body{
+	font-family: 'Libre Baskerville', serif;
+}
+
+h4{
+	font-weight: normal;
+	font-variant: small-caps;
+	border-top: 1px solid #DDDDDD;
+}
+
+textarea{
+	resize: none;
+	vertical-align: top;
+	height: 100px;
+}
+
+table{
+	border-collapse: collapse;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	margin-bottom: 20px;
+}
+	td, th{
+		border-right: 1px solid black;
+		padding: 10px;
+	}
+	tr td:last-child, tr th:last-child{
+		border: none;
+	}
+
+.alt{
+	background: #EEEEEE;
+}
+
+form{
+	line-height: 22px;
+}
+
+#add_record{
+	float: right;
+	background: #3875D7;
+	border: none;
+	color: white;
+	margin-top: 10px;
+	padding: 5px;
+}
+
+#add_exam{
+	margin-top: 20px;
+	width: 315px;
+	}
+	#add_exam input{
+		float: right;
+		vertical-align: top;
+		width: 170px;
+}
